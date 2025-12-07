@@ -1,16 +1,51 @@
-# React + Vite
+# Cancer Awareness & Support – React Web Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and responsive React-based web page created for the **“Cancer Awareness & Support”** theme.  
+It includes a landing banner section and a contact form, built without any backend or APIs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🎗️ **Beautiful landing banner** with awareness message  
+- 📄 **Responsive layout** (works on mobile, tablet, and laptop)  
+- 📬 **Contact form** (Name, Email, Message) – *no backend required*  
+- 🎨 Clean UI using custom CSS  
+- 📦 Lightweight and beginner-friendly React structure  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **CSS3**
+- **Vite / Create React App** (choose based on what you used)
+- **Responsive Design**
+
+---
+
+## 📁 Project Structure
+
+src/
+│── components/
+│ ├── Banner.jsx
+│ └── ContactForm.jsx
+│
+│── App.jsx
+│── App.css
+│── index.js 
+
+## 🧩 How to Run Locally 
+
+npm install
+npm run dev
+
+---
+
+## © Credits
+
+- Banner image from **Unsplash**  
+- Designed & developed by **JAIAKASH S**
+
+---
+
