@@ -3,12 +3,12 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   background: #fdfdfd;
+  overflow-x: hidden;
 }
 
 /* Container */
 .container {
   width: 100%;
-  overflow-x: hidden;
 }
 
 /* Banner Section */
@@ -20,7 +20,7 @@ body {
 
 .banner-img {
   width: 100%;
-  height: 330px;
+  height: 260px; 
   object-fit: cover;
   filter: brightness(55%);
 }
@@ -34,49 +34,51 @@ body {
 }
 
 .banner-text h1 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   margin: 0;
   font-weight: 600;
 }
 
 .banner-text p {
-  font-size: 1.1rem;
-  margin-top: 10px;
+  font-size: 1rem;
+  margin-top: 8px;
   font-weight: 300;
 }
 
 /* Contact Form Section */
 .contact-section {
-  padding: 15px 20px;
+  padding: 10px 20px;  
+  margin-top: -20px;   
   text-align: center;
 }
 
 .contact-section h2 {
-  margin-bottom: 25px;
-  font-size: 2.1rem;
+  margin-bottom: 18px;
+  font-size: 2rem;
   font-weight: 600;
   color: #444;
 }
 
+/* Contact Form Card */
 .contact-form {
-  max-width: 450px;
+  max-width: 420px; 
   margin: auto;
-  padding: 30px 25px;
+  padding: 25px 20px;   
   background: white;
   border-radius: 12px;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 15px;
 }
 
 /* Input & Textarea Styling */
 .contact-form input,
 .contact-form textarea {
-  padding: 12px;
+  padding: 11px;
   border-radius: 8px;
   border: 1px solid #ddd;
-  font-size: 1rem;
+  font-size: 0.95rem;
   background: #fafafa;
   outline: none;
   transition: 0.25s ease;
@@ -110,7 +112,7 @@ body {
 /* Responsive Layout */
 @media (max-width: 600px) {
   .banner-img {
-    height: 240px;
+    height: 200px; 
   }
 
   .banner-text h1 {
@@ -118,10 +120,11 @@ body {
   }
 
   .banner-text p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .contact-form {
-    padding: 25px 20px;
+    max-width: 90%;
+    padding: 22px 18px;
   }
 }
